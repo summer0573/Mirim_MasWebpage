@@ -6,7 +6,7 @@ header {
     align-items: center;
     z-index: 100; /* 보이는 순서 1순위 */
     background-color: black;
-    border-bottom: 1px solid #ffffff; /* 아래 구분선 */
+    border-bottom: 1px dashed #ffffff; /* 아래 구분선 */
 }
 
 nav {
