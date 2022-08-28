@@ -1,12 +1,15 @@
 header {
+    display: block; 
+    margin-right: auto;
+    margin-left: auto; 
     height: 10px;
-    display: flex; /* 한 줄로 나열 */
+    width: 1138px;
     padding: 16px;
     /* 아래로 스크롤하면 헤더가 스르륵 올라가서 안 보이는 JS 적용 */
     align-items: center;
     z-index: 100; /* 보이는 순서 1순위 */
     background-color: black;
-    border-bottom: 1px solid #ffffff; /* 아래 구분선 */
+    border-bottom: 1px dashed #ffffff; /* 아래 구분선 */
 }
 
 nav {
@@ -49,36 +52,45 @@ a:visited {
     top: 0;
 }
 
-.logo {
+/* .logo {
     position: absolute;
     left: 20px;
     width: 59px;
     height: 58px;
     background-color: #ffffff;
     margin: 30px 0 0 20px;
-}
+} */
 
 .nav-list {
-    width: 100%;
+    /* width: 100%;
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
     margin: 47px 6% 0 0;
     padding: 0;
     border-right: 1px;
-    border-color: white;
+    border-color: white; */
+    margin-top: 111px;
+    margin-right: 550px;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: auto;
 }
 
 .nav-item {
-    text-align: center;
+    /* text-align: center;
     height: 100%;
     width: 100px;
     float: left;
     margin-right: 4%;
-    color: #585858;
+    color: #585858; */
+    margin-top: 10px;
 }
 
-.hr-div {
+
+/* .hr-div {
     display: flex;
     width: 1px;
     height: 1500px;
@@ -92,7 +104,7 @@ a:visited {
     height: 1500px;
     border-left: 1px solid #ffffff;
     margin-left: 120px;
-}
+} */
 
 .nav-right {
     display: block;
@@ -104,6 +116,7 @@ a:visited {
     width: 100%;
     color: #585858;
 }
+
 body{
     background-color: black;
 }
